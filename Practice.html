@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<fieldest>
+        <legend>注册用户</legend>
+    <!--表单数据的提交方式为POST-->
+    <form action="#" method="post">
+        <table cellpadding="10" align="center">
+            <tr>
+                <td align="right">用户名：</td>
+                <td>
+                    <!--文本输入框控件-->
+                    <label>
+                        <input type="text" name="username"/>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">密码：</td>
+                <td>
+                    <!--密码输入框控件-->
+                    <label>
+                        <input type="password" name="password"/>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">性别：</td>
+                <td>
+                    <label>
+                        <input type="radio" name="gender" value="male">
+                        男
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        女
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">爱好：</td>
+                <td>
+                    <!--复选框控件-->
+                    <label>
+                        <input type="checkbox" name="interest" value="film"/>
+                        电影
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interest" value="code"/>
+                        代码
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interest" value="film"/>
+                        游戏
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td align="right">头像：</td>
+                <td>
+                    <input type="file" name="photo"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="注册"/>
+                    <input type="reset" value="重填"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</fieldest>
+</body>
+</html>
